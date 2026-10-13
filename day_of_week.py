@@ -22,3 +22,9 @@ elif day_number == 7:
     print('Sunday')
 else:
     print('Error: Please enter a number in the range of 1 through 7.')
+
+# Tell the user whether it's a weekday or the weekend.
+if day_number == 6 or day_number == 7:
+    print('It is the weekend!')
+elif day_number >= 1 and day_number <= 5:
+    print('It is a weekday.')
